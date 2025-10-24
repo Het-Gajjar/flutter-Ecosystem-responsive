@@ -1,0 +1,215 @@
+@font-face {
+  font-family: google;
+  src: url("./4UasrENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RPjIUvbQoi-E.woff2");
+}
+@font-face {
+  font-family: google2;
+  src: url("./KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2");
+}
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+main section.view1 {
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
+  font-family: google;
+  background: linear-gradient(#F2FCFE, #FAE1EB);
+}
+main section.view1 .hero {
+  margin-top: 3rem;
+}
+main section.view1 img {
+  width: 80%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-top: 3rem;
+}
+main section.view1 h1 {
+  display: flex;
+  flex-direction: column;
+  padding: 2.2rem;
+  margin-top: 2rem;
+  line-height: 100%;
+  font-size: 3.2rem;
+  font-weight: 600;
+}
+main section.view1 h2 {
+  font-size: 2rem;
+  padding: 8vw 6vw;
+  font-weight: 200;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
+main section.view2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  padding: 2rem;
+  font-family: google;
+}
+main section.view2 .card {
+  width: 100%;
+  border-top: 0.3rem solid #E8E9EC;
+}
+main section.view2 .card h2 {
+  padding-top: 2rem;
+}
+main section.view2 .card p {
+  padding-top: 1.6rem;
+  font-weight: 300;
+  font-size: 1.2rem;
+  font-family: google2;
+}
+main section.view2 .card img {
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+  width: 100%;
+}
+main section.view3 {
+  width: 100vw;
+  display: flex;
+  font-family: google;
+  flex-direction: column;
+  width: 100%;
+}
+main section.view3 .dialogbox {
+  width: 100%;
+  margin-top: 10vw;
+  padding: 6vw;
+}
+main section.view3 .info h4 {
+  font-size: 1.1rem;
+}
+main section.view3 .info h3 {
+  padding-top: 5vw;
+  font-size: 3rem;
+}
+main section.view3 .info p {
+  padding-top: 5vw;
+  font-size: 1.1rem;
+  width: 78vw;
+  line-height: 140%;
+}
+main section.view3 .info button {
+  padding: 2.5vw 7vw;
+  margin-top: 6vw;
+  margin-bottom: 6vw;
+  border-radius: 5vw;
+  font-size: 0.9rem;
+  color: #0768D7;
+  border-color: #0768D7;
+  background-color: white;
+}
+main section.view3 button:hover {
+  background-color: #0768D7;
+  color: white;
+}
+main section.view3 a {
+  margin-bottom: 10vw;
+  font-size: 0.9rem;
+  color: black;
+  font-weight: 800;
+  text-decoration: none;
+}
+main section.view3 img {
+  width: 100%;
+}
+main section.view3 .dialogbox:nth-child(2n) {
+  background: linear-gradient(#f9faf3, #FDFDE1);
+}
+@media screen and (min-width: 900px) {
+  main section.view1 .part1 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  main section.view1 img {
+    width: 50%;
+  }
+  main section.view1 h1 {
+    width: 40vw;
+    text-align: start;
+    font-size: 5rem;
+  }
+  main section.view1 h2 {
+    width: 70vw;
+    margin-left: 12vw;
+  }
+  main section.view2 {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+  }
+  main section.view3 {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+  }
+  main section.view3 .dialogbox {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    margin-top: 0vw;
+  }
+  main section.view3 .dialogbox .imgcontainer {
+    width: 35vw;
+  }
+  main section.view3 .dialogbox .imgcontainer img {
+    width: 90%;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  main section.view3 .dialogbox .info {
+    padding-top: 2vw;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    width: 35vw;
+    margin-left: 12vw;
+  }
+  main section.view3 .dialogbox .info h4 {
+    font-size: 1.3rem;
+  }
+  main section.view3 .dialogbox .info h3 {
+    padding-top: 1.5vw;
+    font-size: 3.5rem;
+    line-height: 120%;
+  }
+  main section.view3 .dialogbox .info p {
+    padding-top: 2vw;
+    font-size: 1.3rem;
+    width: 30vw;
+    line-height: 120%;
+  }
+  main section.view3 .dialogbox .info button {
+    padding: 0.7vw;
+    width: 15vw;
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+  }
+  main section.view3 .dialogbox:nth-child(2n) {
+    flex-direction: row-reverse;
+  }
+  main section.view3 .dialogbox:nth-child(2n) .info {
+    margin-left: 1vw;
+    margin-right: 13vw;
+  }
+}/*# sourceMappingURL=Style.css.map */
